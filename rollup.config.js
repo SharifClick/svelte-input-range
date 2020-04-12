@@ -7,10 +7,10 @@ import pkg from './package.json';
 
 export default [
 	{
-		input: 'src/Swipe.svelte',
+		input: 'src/InputRange.svelte',
 		output: [
 			{ file: pkg.module, 'format': 'es' },
-			{ file: pkg.main, 'format': 'umd', name: 'Swipe' }
+			{ file: pkg.main, 'format': 'umd', name: 'InputRange' }
 		],
 		plugins: [
 			svelte(),

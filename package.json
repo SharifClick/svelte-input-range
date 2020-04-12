@@ -1,20 +1,20 @@
 {
-  "name": "svelte-swipe",
+  "name": "svelte-input-range",
   "version": "1.4.0",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
-  "description": "A Svelte component to swipe elements just like a snap",
-  "homepage": "https://github.com/SharifClick/svelte-swipe",
+  "description": "",
+  "homepage": "https://github.com/SharifClick/svelte-input-range",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SharifClick/svelte-swipe"
+    "url": "https://github.com/SharifClick/svelte-input-range"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/SharifClick/svelte-swipe/issues"
+    "url": "https://github.com/SharifClick/svelte-input-range/issues"
   },
   "author": {
     "name": "Sharif Ahmed",
@@ -45,11 +45,9 @@
     "svelte",
     "svelte.js",
     "sveltejs",
-    "svelte-swipe",
-    "svelte-slider",
-    "swipe",
+    "svelte-input-range",
+    "input",
+    "range",
     "slider",
-    "carousel",
-    "svelte-carousel"
   ]
 }
