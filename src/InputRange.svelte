@@ -24,14 +24,10 @@
     -webkit-appearance: none;
     height: 100%;
     width: 100%;
-    box-shadow: none;
-    padding: 0;
-  }
-
-  .range-control > input[type="range"]:focus, .range-control > input[type="range"]:active {
     border: none;
     outline: none;
     box-shadow: none;
+    padding: 0;
   }
 
   .range-control > input[type="range"]::-webkit-slider-runnable-track {
@@ -54,13 +50,13 @@
     cursor: pointer;
   }
 
-  .range-control > input[type="range"]::-moz-range-thumb {
+  /* .range-control > input[type="range"]::-moz-range-thumb {
     width: 2.857rem;
     height: 1.714rem;
     background:transparent;
     margin-top: -0.714rem;
     cursor: pointer;
-  }
+  } */
   .range-control > output {
     position: absolute;
     top: 2px;

@@ -384,16 +384,16 @@ var app = (function () {
     			t0 = space();
     			output = element("output");
     			t1 = text(/*value*/ ctx[0]);
-    			attr_dev(input, "class", input_class_value = "input " + /*classes*/ ctx[3] + " svelte-m3nrp6");
+    			attr_dev(input, "class", input_class_value = "input " + /*classes*/ ctx[3] + " svelte-1jegx0v");
     			attr_dev(input, "type", "range");
     			attr_dev(input, "min", /*min*/ ctx[1]);
     			attr_dev(input, "max", /*max*/ ctx[2]);
-    			add_location(input, file, 80, 2, 1828);
+    			add_location(input, file, 76, 2, 1711);
     			attr_dev(output, "style", /*computedStyle*/ ctx[4]);
-    			attr_dev(output, "class", "svelte-m3nrp6");
-    			add_location(output, file, 81, 2, 1911);
-    			attr_dev(div, "class", "range-control svelte-m3nrp6");
-    			add_location(div, file, 79, 0, 1797);
+    			attr_dev(output, "class", "svelte-1jegx0v");
+    			add_location(output, file, 77, 2, 1794);
+    			attr_dev(div, "class", "range-control svelte-1jegx0v");
+    			add_location(div, file, 75, 0, 1680);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -414,7 +414,7 @@ var app = (function () {
     			];
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*classes*/ 8 && input_class_value !== (input_class_value = "input " + /*classes*/ ctx[3] + " svelte-m3nrp6")) {
+    			if (dirty & /*classes*/ 8 && input_class_value !== (input_class_value = "input " + /*classes*/ ctx[3] + " svelte-1jegx0v")) {
     				attr_dev(input, "class", input_class_value);
     			}
 
