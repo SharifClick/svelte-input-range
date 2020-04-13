@@ -1,8 +1,8 @@
 <script>
-  let min =  0;
-  let max =  100;
-  let value =  50;
-  let classes = '';
+  export let min =  0;
+  export let max =  100;
+  export let value =  50;
+  export let classes = '';
   let computedStyle = '';
 
   $: {
@@ -18,6 +18,14 @@
 <style>
   .range-control {
     position: relative;
+  }
+
+  .range-control > input[type="range"] {
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+    padding: 0;
   }
 
   .range-control > input[type="range"]::-webkit-slider-runnable-track {
