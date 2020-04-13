@@ -30,8 +30,8 @@
 
   .range-control > input[type="range"]::-webkit-slider-runnable-track {
     background: lightgrey;
-    height: 0.357rem;
-    border-radius: 0.714rem;
+    height: 5px;
+    border-radius: 10px;
   }
 
   .range-control > input[type="range"]::-moz-range-track {
@@ -41,10 +41,10 @@
 
   .range-control > input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 2.857rem;
-    height: 1.714rem;
+    width: 40px;
+    height: 24px;
     background:transparent;
-    margin-top: -0.714rem;
+    margin-top: -10px;
     cursor: pointer;
   }
 
@@ -57,7 +57,7 @@
   }
   .range-control > output {
     position: absolute;
-    top: 0.357em;
+    top: 2px;
     pointer-events: none;
     display: block;
     width: 2.857em;
