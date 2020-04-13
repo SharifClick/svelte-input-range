@@ -28,6 +28,12 @@
     padding: 0;
   }
 
+  .range-control > input[type="range"]:focus, .range-control > input[type="range"]:active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
   .range-control > input[type="range"]::-webkit-slider-runnable-track {
     background: lightgrey;
     height: 5px;
